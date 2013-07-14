@@ -3,11 +3,10 @@
 #mobile-header {
   display: block;
   background:#333;
-  padding:0.5em;
   a {
     color:#fff;
-    display:inline-block;
-    padding:0.25em 1em;
+    display:block;
+    padding:0.5em;
     text-decoration:none;
   }
 }
@@ -50,6 +49,7 @@
       }
       a:hover {
         background:#111;
+        color:#f90;
       }
       li {
         font-size:80%;
@@ -70,11 +70,18 @@
     text-align:center;
     text-decoration:none;
     line-height:40px;
+    background:#f90;
+    font-weight:bold;
+    text-shadow:0 -1px 0 #000;
   }
 }
 
 #content {
   padding:20px;
+  color:#333;
+  h1, h2, h3, a {
+    color:#f90;
+  }
 }
 
 #mobile-header.desktop {

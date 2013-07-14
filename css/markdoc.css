@@ -111,12 +111,11 @@ ul, ol {
 
 #mobile-header {
   display: block;
-  background: #333;
-  padding: 0.5em; }
+  background: #333; }
   #mobile-header a {
     color: #fff;
-    display: inline-block;
-    padding: 0.25em 1em;
+    display: block;
+    padding: 0.5em;
     text-decoration: none; }
 
 #sidebar {
@@ -153,7 +152,8 @@ ul, ol {
         padding: 0 1em;
         text-decoration: none; }
       #sidebar ul li a:hover {
-        background: #111; }
+        background: #111;
+        color: #f90; }
       #sidebar ul li li {
         font-size: 80%; }
         #sidebar ul li li a {
@@ -168,10 +168,16 @@ ul, ol {
     color: #fff;
     text-align: center;
     text-decoration: none;
-    line-height: 40px; }
+    line-height: 40px;
+    background: #f90;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 #000; }
 
 #content {
-  padding: 20px; }
+  padding: 20px;
+  color: #333; }
+  #content h1, #content h2, #content h3, #content a {
+    color: #f90; }
 
 #mobile-header.desktop {
   display: none; }
