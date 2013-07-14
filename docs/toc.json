@@ -1,0 +1,24 @@
+{
+  "sections": [
+    {
+      "title":"Welcome",
+      "page":"./docs/welcome.md",
+      "contents":[
+        {
+          "title":"Setup",
+          "page":"./docs/setup.md"
+        }
+      ]
+    },
+    {
+      "title":"ToDos &amp; Limitations",
+      "page":"./docs/todos.md",
+      "contents": []
+    },
+    {
+      "title":"Support",
+      "page":"./docs/support.md",
+      "contents": []
+    }
+  ]
+}
